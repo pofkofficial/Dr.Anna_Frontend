@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Portrait from "/src/assets/Portrait/portrait.webp";
 
 const BriefBio = () => {
   return (
@@ -13,7 +14,7 @@ const BriefBio = () => {
           
           <div className="relative z-10 aspect-[4/5] overflow-hidden border border-dr-gold/20 shadow-2xl">
             <img 
-              src="src/assets/Portrait/portrait.webp" 
+              src={Portrait} 
               alt="Dr. Anna Portrait" 
               className="w-full h-full object-cover  transition-all duration-700"
             />

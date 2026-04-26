@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Family from "/src/assets/Portrait/Family.png" 
 const Journey = () => {
   return (
     <section className="py-24 px-6 md:px-12 bg-dr-black">
@@ -34,7 +34,7 @@ const Journey = () => {
             <div className="aspect-[4/3] overflow-hidden border border-dr-gold/10">
               {/* Family Picture of her, mom, and dad */}
               <img 
-                src="src/assets/Portrait/family.png" 
+                src= {Family}  
                 alt="Dr. Anna with her parents" 
                 className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-700"
               />

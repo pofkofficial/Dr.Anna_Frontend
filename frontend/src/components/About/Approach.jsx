@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Portrait from "/src/assets/Portrait/portrait.webp" 
 const Approach = () => {
   return (
     <section className="py-24 px-6 bg-[#050505] border-y border-dr-gold/5">
@@ -10,9 +10,9 @@ const Approach = () => {
           <div className="w-full lg:w-1/3">
             <div className="relative">
               <img 
-                src="src/assets/Portrait/portrait.webp" 
+                src={Portrait}
                 alt="Dr. Anna Portrait" 
-                className="w-full grayscale border border-dr-gold/20"
+                className="w-full border border-dr-gold/20"
               />
               <div className="absolute inset-0 bg-dr-gold/5 mix-blend-overlay" />
             </div>
