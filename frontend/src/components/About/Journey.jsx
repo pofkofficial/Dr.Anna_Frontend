@@ -1,5 +1,5 @@
 import React from 'react';
-import Family from "/src/assets/Portrait/Family.png" 
+import Family from "/src/assets/Portrait/family.png" 
 const Journey = () => {
   return (
     <section className="py-24 px-6 md:px-12 bg-dr-black">
