@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
-import DetailedSpecialties from '../components/services/DetailedSpecialties';
-import ServiceFAQ from '../components/services/ServiceFAQ';
+import DetailedSpecialties from '../components/Services/DetailedSpecialties';
+import ServiceFAQ from '../components/Services/ServiceFAQ';
 
 const Services = () => {
   const { hash } = useLocation();
