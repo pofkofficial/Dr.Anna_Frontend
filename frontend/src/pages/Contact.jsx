@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import DirectInquiry from '../components/contact/DirectInquiry';
-import ClinicLocation from '../components/contact/ClinicLocation';
+import DirectInquiry from '../components/Contact/DirectInquiry';
+import ClinicLocation from '../components/Contact/ClinicLocation';
 
 const Contact = () => {
   useEffect(() => {
