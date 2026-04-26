@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Keep your custom fonts below */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400&display=swap');
+
+/* You can define her brand colors as CSS variables here too if you like */
+@theme {
+  --color-dr-gold: #D4AF37;
+  --color-dr-black: #121212;
+  --font-serif: "Playfair Display", serif;
+}
