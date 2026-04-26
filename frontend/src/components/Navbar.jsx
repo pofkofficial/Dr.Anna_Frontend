@@ -77,7 +77,7 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <a 
               key={link.name} 
-              href={link.href} 
+              href={link.path} 
               onClick={() => setIsOpen(false)}
               className="text-2xl font-serif tracking-widest hover:text-dr-gold transition-colors"
             >
